@@ -85,7 +85,7 @@ bookingForm.addEventListener('submit', function(e) {
     const phone = '233543258881';
     const whatsappURL = `https://wa.me/${phone}?text=${message}`;
 
-    if(scriptURL !== 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+    if(scriptURL !== 'https://script.google.com/macros/s/AKfycbwmE3LzgM4vD9j51o-xq6HJOGUwhgu8Wn8bIhpGxaJ5fDUl9JfA1giCZ4z9irWvPtw9/exec') {
         fetch(scriptURL, {
             method: 'POST',
             body: new FormData(bookingForm)
