@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nana K'ay | Classic Haircuts and Care</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@500;700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- FontAwesome for Social Icons & Arrows -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="Nana K'ay Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#booking" class="btn-nav">BOOK NOW</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>THE GAME <span class="scissors">✂️</span></h2>
+            <p class="slogan">"Classic Haircuts and Care"</p>
+            <p class="sub-text">Fresh cuts. Sharp fades. Premium grooming.<br>Experience the difference.</p>
+            <a href="#booking" class="btn-primary">BOOK YOUR APPOINTMENT <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </header>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section">
+        <h2 class="section-title">SERVICES & PRICING</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>ADULTS</h3>
+                <div class="price">GHC 40</div>
+                <p>Sharp fades, line-ups, and full grooming.</p>
+            </div>
+            <div class="service-card">
+                <h3>YOUNG PEOPLE</h3>
+                <div class="price">GHC 30</div>
+                <p>Stylish cuts for the young people.</p>
+            </div>
+            <div class="service-card">
+                <h3>CHILDREN</h3>
+                <div class="price">GHC 20</div>
+                <p>Clean, patient cuts for kids.</p>
+            </div>
+            <div class="service-card">
+                <h3>HOME SERVICE</h3>
+                <div class="price">CALL FOR PRICE</div>
+                <p>We bring the barbershop to your home.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY CAROUSEL (CORRECTED) -->
+    <section id="gallery" class="section">
+        <h2 class="section-title">THE GAME</h2>
+        
+        <div class="carousel-wrapper">
+            <!-- Left Arrow Button -->
+            <button class="nav-btn prev-gallery"><i class="fas fa-chevron-left"></i></button>
+            
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/Game1.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game2.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game3.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game4.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game4.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game5.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game6.jpg" alt="Haircut"></div>
+                    <div class="swiper-slide"><img src="images/Game7.jpg" alt="Haircut"></div>
+                </div>
+            </div>
+            
+            <!-- Right Arrow Button -->
+            <button class="nav-btn next-gallery"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- PRODUCTS CAROUSEL -->
+    <section id="products" class="section">
+        <h2 class="section-title">PREMIUM PRODUCTS</h2>
+        
+        <div class="carousel-wrapper">
+            <!-- Left Arrow Button -->
+            <button class="nav-btn prev-product"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="swiper products-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-card">
+                        <img src="images/minoxidil.jpg" alt="Minoxidil">
+                        <h3>Kirkland Minoxidil</h3>
+                        <p class="price">GHC 85</p>
+                        <a href="https://wa.me/233543258881?text=Hi%20Nana%20K'ay,%20I%20want%20to%20order%20Minoxidil" class="btn-buy" target="_blank">ORDER VIA WHATSAPP</a>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/roller.jpg" alt="Derma Roller">
+                        <h3>Derma Roller</h3>
+                        <p class="price">GHC 50</p>
+                        <a href="https://wa.me/233543258881?text=Hi%20Nana%20K'ay,%20I%20want%20to%20order%20a%20Derma%20Roller" class="btn-buy" target="_blank">ORDER VIA WHATSAPP</a>
+                    </div>
+                     <div class="swiper-slide product-card">
+                        <img src="images/kuza.jpg" alt="Kuza Hair Cream">
+                        <h3>Kuza Indian Hemp</h3>
+                        <p class="price">GHC 40</p>
+                        <a href="https://wa.me/233543258881?text=Hi%20Nana%20K'ay,%20I%20want%20to%20order%20Kuza%20Hair%20Cream" class="btn-buy" target="_blank">ORDER VIA WHATSAPP</a>
+                    </div>
+            </div>
+
+            <!-- Right Arrow Button -->
+            <button class="nav-btn next-product"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section id="booking" class="section booking-section">
+        <h2 class="section-title">BOOK APPOINTMENT</h2>
+        <p class="booking-sub">Open Monday to Sunday, 7:00 AM - 5:00 PM</p>
+        
+        <div class="form-container">
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="eg. Nana K'ay">
+                </div>
+                
+                <div class="form-group">
+                    <label>Service Type</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="Adult Walk-In (GHC 40)">Walk-In: Adult (GHC 40)</option>
+                        <option value="Young People Walk-In (GHC 30)">Walk-In: Young People (GHC 30)</option>
+                        <option value="Children Walk-In (GHC 20)">Walk-In: Children (GHC 20)</option>
+                        <option value="Home Service">Home Service (Call for Price)</option>
+                    </select>
+                </div>
+
+                <div class="form-group hidden" id="location-group">
+                    <label>Your Address (For Home Service)</label>
+                    <input type="text" id="location" name="location" placeholder="Enter your location details">
+                </div>
+
+                <div class="form-group">
+                    <label>Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+
+                <button type="submit" class="btn-primary form-btn">CONFIRM BOOKING VIA WHATSAPP</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>NANA K'AY</h3>
+        <p class="footer-slogan">Classic Haircuts and Care</p>
+        
+        <div class="footer-contact">
+            <p><i class="fas fa-phone-alt"></i> 0543258881</p>
+            <p><i class="fas fa-map-marker-alt"></i> Ashaiman-Lebanon Z2. E378, Manko St. GB-050-5600</p>
+            <p><i class="fas fa-envelope"></i> samuelboateng825@gmail.com</p>
+        </div>
+        
+        <div class="socials">
+            <a href="https://instagram.com/nana_k4y_" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@nana_k4y" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://facebook.com/NanaK'ay" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/nana_k4y" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+        <p class="copyright">&copy; 2026 NANA K'AY. THE GAME.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
